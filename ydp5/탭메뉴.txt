@@ -1,0 +1,12 @@
+/* tab메뉴 */
+#container .cont04{background-color:burlywood;  width:100%; height:410px; margin-top:95px;}
+#container .cont04 .tab{background-color:greenyellow; width:900px; height:40px; margin:0 auto;}
+#container .cont04 .tab li{background-color:cornflowerblue; width:180px; height:100%; text-align:center; float:left; margin-right:60px;}
+#container .cont04 .tab li a{display:inline-block;}
+
+#container .cont04 .tabcontent{background-color:fuchsia; width:900px; height:300px; margin:30px auto 0; display:none;}
+#container .cont04 .tabcontent div{background-color:lightgray; width:160px; height:150px; float:left; margin-right:25px; text-align: center;}
+#container .cont04 .tabcontent div a{}
+#container .cont04 .tabcontent div p{font-size:14px; margin-top:10px;}
+#container .cont04 .tab li .current{opacity:0.5;}
+#container .cont04 .current{display:block;}

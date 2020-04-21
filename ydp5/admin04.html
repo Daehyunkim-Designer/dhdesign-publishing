@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영등포구청</title>
+	<link rel="stylesheet" href="css/admin04.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <div class="skipNav">
+        <a href="#">본문 바로가기</a>
+        <a href="#">주메뉴 바로가기</a>
+    </div>
+    <div id="header">
+        <div class="top_main clearfix">
+            <div class="wrapper">
+                <ul class="main_lf clearfix">
+                    <li class="first"><a href="#">구의회</a></li>
+                    <li><a href="#">보건소</a></li>
+                    <li><a href="#">문화관광</a></li>
+                    <li><a href="#">평생학습</a></li>
+                    <li class="big"><a href="#">정보화교육</a></li>
+                </ul>
+                <ul class="main_rt clearfix">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="signup.html">회원가입</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_logo clearfix">
+            <div class="wrapper">
+               <!-- 모바일 메뉴-->
+                <div class="m_btn">
+                </div>
+                <div onclick="history.back();" class="page_cover"></div>
+                <div id="m_menu">
+                    <div onclick="history.forward();" class="close"></div>
+                    <ul class="m_gnb">
+                        <li>
+                        	<a href="#" onclick="return false">종합민원</a>
+                        	<ul class="m_subgnb">
+                        		<li>
+                        			<a href="complain01.html">무인민원발급창구</a>
+                        		</li>
+								<li>
+									<a href="#">화요아침저녁민원처리</a>
+								</li>
+								<li>
+									<a href="#">여권발급안내</a>
+								</li>
+								<li>
+									<a href="#">민원상담</a>
+								</li>
+								<li>
+									<a href="#">월별지방세안내</a>
+								</li>
+								<li>
+									<a href="#">지방소득세 개편안내</a>
+								</li>
+								<li>
+									<a href="#">서울시마을세무사 무료상담</a>
+								</li>
+								<li>
+									<a href="#">에코마일리지</a>
+								</li>
+								<li>
+									<a href="#">정화조청소</a>
+								</li>
+								<li>
+									<a href="#">대형폐기물신청</a>
+								</li>
+								<li>
+									<a href="#">생활쓰레기배출요령</a>
+								</li>
+								<li>
+                      				<a href="#">음식물쓰레기배출요령</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">지적민원안내</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">토지특성자료조회</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">부동상중개보수료</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">임대차계약정보안내</a>
+                       			</li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">행정참여</a>
+                        	<ul class="m_subgnb">
+                        		<li><a href="#">사전정보공표</a></li>
+								<li><a href="#">정책실명제</a></li>
+								<li><a href="#">구민관심사항</a></li>
+								<li><a href="#">주요회의</a></li>
+								<li><a href="#">대학생 아르바이트접수</a></li>
+								<li><a href="#">영어캠프 접수</a></li>
+								<li><a href="#">규제개혁안내</a></li>
+								<li><a href="#">규제정보</a></li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">교육생활</a>
+                        	<ul class="m_subgnb">
+								<li><a href="#">정보화교육</a></li>
+								<li><a href="#">관내유치원</a></li>
+								<li><a href="#">관내초등학교</a></li>
+								<li><a href="#">관내중학교</a></li>
+								<li><a href="#">관내고등학교</a></li>
+								<li><a href="#">취업정보안내</a></li>
+								<li><a href="#">청년인턴제</a></li>
+								<li><a href="#">오늘의 상품</a></li>
+								<li><a href="#">전통시장 안내</a></li>
+								<li><a href="#">버스정보</a></li>
+								<li><a href="#">지하철정보</a></li>
+								<li><a href="#">재난안전</a></li>
+							</ul>
+                        </li>
+                        <li><a href="#">보건복지</a></li>
+                        <li><a href="#">영등포소개</a></li>
+                        <li><a href="#">문화관광</a></li>
+                    </ul>
+                </div>
+                
+                <h1 class="logo">
+                    <a href="index.html" title="메인화면으로 이동">
+                        <img src="images/logo.jpg" alt="탁트인영등포">
+                    </a>
+                </h1>
+                <h1 class="m_logo">
+                    <a href="index.html" title="메인화면으로 이동" >
+                        <img src="images/mlogo.png" alt="영등포구">
+                    </a>
+                </h1>
+                
+                <div class="search">
+                    <div class="s_inner">
+                        <label class="blind" for="query">검색내용입력</label>
+                        <input type="text" class="search_bar" id="query" title="검색할 키워드 입력후 엔터키 : 검색결과 새창으로 이동" placeholder="검색어를 입력하세요">
+                    </div>
+                </div>
+                <ul class="sns clearfix">
+                    <li><a href="#"><img src="images/sns01.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/sns02.png" alt="pinterest"></a></li>
+                    <li><a href="#"><img src="images/sns03.png" alt="blog"></a></li>
+                    <li><a href="#"><img src="images/sns04.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/sns05.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="images/sns06.png" alt="potcast"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_gnb">
+            <div class="wrapper">
+                <ul class="clearfix">
+                    <li ><a href="complain01.html">민원센터</a></li>
+                    <li><a href="admin.html">행정정보</a></li>
+                    <li><a href="resident.html">구민참여</a></li>
+                    <li><a href="#">복지/생활</a></li>
+                    <li><a href="#">도시/경제</a></li>
+                    <li class="last"><a href="#">영등포소개</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+   <!-- 컨텐츠영역 -->
+    <div id="container">
+        <div class="wrapper clearfix">
+            <!-- 왼쪽메뉴 -->
+            <div class="left_wrap">
+               	<h2>
+               		<img src="images/menu_hd02.png" alt="행정정보" />
+               	</h2>
+                <ul class="left_menu">
+                    <li>
+                        <a href="#" class="main" onclick="return false;">예산공개</a>
+                        <ul class="sub_cont sub_cont01">
+                            <li>
+                            	<a href="admin.html">예산서 보기</a>
+                            </li>
+                            <li>
+                            	<a href="admin02.html">중기지방재정계획</a>
+                            </li>
+                            <li>
+                            	<a href="admin03.html">주민참여방</a>
+                            </li>
+                            <li>
+                            	<a href="#">기금운용계획</a>
+                            </li>
+                            <li>
+                            	<a href="http://openfinance.seoul.go.kr/ydp/fundsoperating?mngId=2&localGovCd=19&" title="새창" target="_blank">세입·세출예산 운용현황</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main" onclick="return false;">정보공개</a>
+                        <ul class="sub_cont sub_cont02">
+                            <li><a href="info01.html">정보공개제도안내</a></li>
+                            <li><a href="info02.html">사전정보공표</a></li>
+                            <li><a href="info03.html">공공데이터개방</a></li>
+                            <li><a href="info04.html">업무추진비 공개</a></li>
+                            <li><a href="info05.html">회의자료 공개</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- 오른쪽 컨텐츠 -->
+            <div class="right_wrap">
+            	<h2>기금운용계획</h2>
+            	<h3>기금 개요</h3>
+            	<h4>
+					<img src="images/arrow.png" alt="화살표" />
+					운용방침
+            	</h4>
+            	<ul class="txt_wrap">
+            		<li>기금별 설치 목적에 부합되고 특정한 목적 달성을 위하여 적정하고 효율적인 운영유도</li>
+            		<li>일반회계와 중복을 방지하고 회계 집행 절차를 준수하는 등 기금의 합리적 운용을 통해 집행의 공정성과 투명성 제고</li>
+            	</ul>
+            	<h4>
+					<img src="images/arrow.png" alt="화살표" />
+					기금현황
+            	</h4>
+            	<div class="board">
+            		<table>
+            			<colgroup>
+            				<col style="width:18%">
+            				<col style="width:9%">
+            				<col style="width:30%">
+            				<col style="width:30%">
+            				<col style="width:13%">
+            			</colgroup>
+            			<thead>
+            				<tr>
+            					<th scope="col">기금명</th>
+            					<th scope="col">설치년도</th>
+            					<th scope="col">설치목적</th>
+            					<th scope="col">설치근거</th>
+            					<th scope="col">소관부서</th>
+            				</tr>
+            			</thead>
+            			<tbody>
+            				<tr>
+            					<td>남북교류협력기금</td>
+            					<td>2020</td>
+            					<td>남북교류협력 사업 추진 활성화</td>
+            					<td>영등포구 남북교류협력에 관한 조례</td>
+            					<td>비전협력과</td>
+            				</tr>
+            				<tr>
+            					<td>체육진흥기금</td>
+            					<td>2001</td>
+            					<td>구민체육 진흥 도모</td>
+            					<td>영등포구 체육진흥기금 설치 및 운용조례</td>
+            					<td>문화체육과</td>
+            				</tr>
+            				<tr>
+            					<td>중소기업육성기금</td>
+            					<td>1993</td>
+            					<td>관내 중소기업의 육성발전과 경영상의 안정을 도모</td>
+            					<td>서울특별시 영등포구 중소기업육성기금 설치 및 운용조례</td>
+            					<td>일자리경제과</td>
+            				</tr>
+            				<tr>
+            					<td>자활기금</td>
+            					<td>2004</td>
+            					<td>자활지원사업의 활성화로 영등포구 기초생활보장 수급자의 자립기반 조성</td>
+            					<td>국민기초생활보장법 제18조3 및 동법시행령 제26조2~4, 서울특별시 영등포구 자활기금 설치 및 운용조례</td>
+            					<td>사회복지과</td>
+            				</tr>
+            				<tr>
+            					<td>양성평등기금</td>
+            					<td>2006</td>
+            					<td>양성평등 실현을 위한 정책 추진</td>
+            					<td>양성평등기본법 제42조, 서울특별시 영등포구 양성평등 기본 조례</td>
+            					<td>보육지원과</td>
+            				</tr>
+            				<tr>
+            					<td>노인복지기금</td>
+            					<td>2001</td>
+            					<td>영등포구 거주 노인의 자립기반 조성과 육성</td>
+            					<td>노인복지법 제4조, 지방자치법 제142조, 서울특별시영등포구 노인복지기금 설치 및 운용조례</td>
+            					<td>어르신복지과</td>
+            				</tr>
+            				<tr>
+            					<td>옥외광고정비기금</td>
+            					<td>2008</td>
+            					<td>옥외광고 정비기금 조성을 통하여 아름답고 쾌적한 생활환경 조성</td>
+            					<td>옥외광고물법 제6조의2 및 서울특별시 영등포구 옥외광고발전기금 설치 및 운용조례	</td>
+            					<td>가로경관과</td>
+            				</tr>
+            				<tr>
+            					<td>재활용품판매대금관리기금	</td>
+            					<td>1994</td>
+            					<td>재활용품 판매대금의 적립 관리	</td>
+            					<td>서울특별시 영등포구 재활용품 판매대금 관리기금 설치 및 운용조례</td>
+            					<td>청소과</td>
+            				</tr>
+            				<tr>
+            					<td>환경미화원자녀학자금대여기금</td>
+            					<td>1991</td>
+            					<td>서울시 영등포구 소속 환경미화원 자녀들에게 학자금을 지원하기위하여 환경미화원자녀학자금대여기금 설치	</td>
+            					<td>서울특별시 영등포구 환경미화원자녀학자금 대여기금 설치조례	</td>
+            					<td>청소과</td>
+            				</tr>
+            				<tr>
+            					<td>재난관리기금</td>
+            					<td>1996</td>
+            					<td>재난의 예방 및 재난발생시 복구에 필요한 자금 확보</td>
+            					<td>재난 및 안전관리기본법 제67조, 서울특별시 영등포구 재난관리기금의 설치, 운용 조례	</td>
+            					<td>도시안전과</td>
+            				</tr>
+            				<tr>
+            					<td>도로굴착복구기금</td>
+            					<td>1999</td>
+            					<td>굴착도로의 신속한 복구	</td>
+            					<td>지방자치법 제142조, 서울특별시 영등포구 도로굴착복구기금 설치조례	</td>
+            					<td>도로과</td>
+            				</tr>
+            				<tr>
+            					<td>식품진흥기금</td>
+            					<td>2001</td>
+            					<td>식품접객업소 시설개선과 모범음식점 육성을 위한 자금지원 및 식품위생, 구민 영양수준 향상	</td>
+            					<td>식품위생법 제89조 및 서울특별시 영등포구 식품진흥기금 조례</td>
+            					<td>위생과</td>
+            				</tr>
+            			</tbody>
+            		</table>
+            	</div>
+            	<h4>
+					<img src="images/arrow.png" alt="화살표" />
+					기금조성규모
+            	</h4>
+            	<div class="board">
+            		<table>
+            			<colgroup>
+            				<col style="width:25%">
+            				<col style="width:23%">
+            				<col style="width:12%">
+            				<col style="width:12%">
+            				<col style="width:13%">
+            				<col style="width:15%">
+            			</colgroup>
+            			<thead>
+            				<tr>
+            					<th scope="col" rowspan="2">기 금 명</th>
+            					<th scope="col" rowspan="2">2019년도 말현재액ⓐ</th>
+            					<th scope="col" colspan="2">2020년도 기금운용계획	</th>
+            					<th scope="col" rowspan="2">2020년도말 현재액ⓓ=ⓐ+ⓑ-ⓒ	</th>
+            					<th scope="col" rowspan="2">증 감ⓔ=ⓓ-ⓐ
+</th>
+            				</tr>
+            				<tr>
+            					<th>수입ⓑ</th>
+            					<th>지출ⓒ</th>
+            				</tr>
+            			</thead>
+            			<tbody>
+            				<tr>
+            					<td>합 계</td>
+            					<td>0</td>
+            					<td>21,486,603	</td>
+            					<td>0</td>
+            					<td>447,103</td>
+            					<td>3,385,763</td>
+            				</tr>
+            				<tr>
+            					<td>남북교류협력기금</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>체육진흥기금</td>
+            					<td>0</td>
+            					<td>265,000</td>
+            					<td>0</td>
+            					<td>8,000</td>
+            					<td>215,000</td>
+            				</tr>
+            				<tr>
+            					<td>중소기업육성기금</td>
+            					<td>0</td>
+            					<td>3,175,000</td>
+            					<td>0</td>
+            					<td>56,000</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>자활기금</td>
+            					<td>0</td>
+            					<td>1,160,335</td>
+            					<td>0</td>
+            					<td>29,100</td>
+            					<td>7,500</td>
+            				</tr>
+            				<tr>
+            					<td>양성평등기금</td>
+            					<td>0</td>
+            					<td>1,121,033</td>
+            					<td>0</td>
+            					<td>18,048</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>노인복지기금</td>
+            					<td>0</td>
+            					<td>2,267,424</td>
+            					<td>0</td>
+            					<td>45,000</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>옥외광고발전기금</td>
+            					<td>0</td>
+            					<td>1,648,313</td>
+            					<td>0</td>
+            					<td>32,000</td>
+            					<td>512,000</td>
+            				</tr>
+            				<tr>
+            					<td>재활용품판매대금관리기금</td>
+            					<td>0</td>
+            					<td>273,030</td>
+            					<td>0</td>
+            					<td>5,500</td>
+            					<td>145,093</td>
+            				</tr>
+            				<tr>
+            					<td>환경미화원자녀 학자금대여기금	</td>
+            					<td>0</td>
+            					<td>741,615</td>
+            					<td>0</td>
+            					<td>21,407</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>재난관리기금</td>
+            					<td>0</td>
+            					<td>6,329,647</td>
+            					<td>0</td>
+            					<td>154,925</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>도로굴착복구기금</td>
+            					<td>0</td>
+            					<td>3,455,206</td>
+            					<td>0</td>
+            					<td>57,123</td>
+            					<td>2,382,170</td>
+            				</tr>
+            				<tr>
+            					<td>식품진흥기금</td>
+            					<td>0</td>
+            					<td>1,050,000</td>
+            					<td>0</td>
+            					<td>20,000</td>
+            					<td>124,000</td>
+            				</tr>
+            			</tbody>
+            		</table>
+            	</div>
+            	<h3>기금운용계획 총괄표</h3>
+            	<h4>
+					<img src="images/arrow.png" alt="화살표" />
+					수입계획
+            	</h4>
+            	<div class="board">
+            		<table>
+            			<colgroup>
+            				<col style="width:25%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            			</colgroup>
+            			<thead>
+            				<tr>
+            					<th scope="col" rowspan="2">기금명</th>
+            					<th scope="col" colspan="5">수입계획</th>
+            				</tr>
+            				<tr>
+            					<th>계</th>
+            					<th>전입금</th>
+            					<th>보조금</th>
+            					<th>차입금</th>
+            					<th>융자금 회수(이자포함)</th>
+            				</tr>
+            			</thead>
+            			<tbody>
+            				<tr>
+            					<td>합 계</td>
+            					<td>30,165,109</td>
+            					<td>1,322,000</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>3,523,640</td>
+            				</tr>
+            				<tr>
+            					<td>남북교류협력기금</td>
+            					<td>50,000</td>
+            					<td>50,000</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>체육진흥기금</td>
+            					<td>488,000</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>중소기업육성기금</td>
+            					<td>6,722,600</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>3,491,600</td>
+            				</tr>
+            				<tr>
+            					<td>자활기금</td>
+            					<td>1,197,315</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>380</td>
+            				</tr>
+            				<tr>
+            					<td>양성평등기금</td>
+            					<td>1,139,081</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>노인복지기금</td>
+            					<td>2,312,424</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>옥외광고발전기금</td>
+            					<td>2,192,313</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>재활용품판매대금관리기금</td>
+            					<td>423,623</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>환경미화원자녀 학자금대여기금	</td>
+            					<td>794,682</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>31,660</td>
+            				</tr>
+            				<tr>
+            					<td>재난관리기금</td>
+            					<td>7,756,572</td>
+            					<td>1,272,000</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>도로굴착복구기금</td>
+            					<td>5,894,499</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>식품진흥기금</td>
+            					<td>1,194,000</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            			</tbody>
+            		</table>
+            		<table>
+            			<colgroup>
+            				<col style="width:25%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            				<col style="width:13%">
+            			</colgroup>
+            			<thead>
+            				<tr>
+            					<th scope="col" rowspan="2">기금명</th>
+            					<th scope="col" colspan="5">수입계획</th>
+            				</tr>
+            				<tr>
+            					<th>예탁금원금회수</th>
+            					<th>예치금회수</th>
+            					<th>예수금</th>
+            					<th>이자수입</th>
+            					<th>기타수입</th>
+            				</tr>
+            			</thead>
+            			<tbody>
+            				<tr>
+            					<td>합 계</td>
+            					<td>0</td>
+            					<td>21,486,603</td>
+            					<td>0</td>
+            					<td>447,103</td>
+            					<td>3,385,763</td>
+            				</tr>
+            				<tr>
+            					<td>남북교류협력기금</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>체육진흥기금</td>
+            					<td>0</td>
+            					<td>265,000</td>
+            					<td>0</td>
+            					<td>8,000</td>
+            					<td>215,000</td>
+            				</tr>
+            				<tr>
+            					<td>중소기업육성기금</td>
+            					<td>0</td>
+            					<td>3,175,000</td>
+            					<td>0</td>
+            					<td>56,000</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>자활기금</td>
+            					<td>0</td>
+            					<td>1,160,335</td>
+            					<td>0</td>
+            					<td>29,100</td>
+            					<td>7,500</td>
+            				</tr>
+            				<tr>
+            					<td>양성평등기금</td>
+            					<td>0</td>
+            					<td>1,121,033</td>
+            					<td>0</td>
+            					<td>18,048</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>노인복지기금</td>
+            					<td>0</td>
+            					<td>2,267,424</td>
+            					<td>0</td>
+            					<td>45,000</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>옥외광고발전기금</td>
+            					<td>0</td>
+            					<td>1,648,313</td>
+            					<td>0</td>
+            					<td>32,000</td>
+            					<td>512,000</td>
+            				</tr>
+            				<tr>
+            					<td>재활용품판매대금관리기금</td>
+            					<td>0</td>
+            					<td>273,030</td>
+            					<td>0</td>
+            					<td>5,500</td>
+            					<td>145,093</td>
+            				</tr>
+            				<tr>
+            					<td>환경미화원자녀 학자금대여기금	</td>
+            					<td>0</td>
+            					<td>741,615</td>
+            					<td>0</td>
+            					<td>21,407</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>재난관리기금</td>
+            					<td>0</td>
+            					<td>6,329,647</td>
+            					<td>0</td>
+            					<td>154,925</td>
+            					<td>0</td>
+            				</tr>
+            				<tr>
+            					<td>도로굴착복구기금</td>
+            					<td>0</td>
+            					<td>3,455,206</td>
+            					<td>0</td>
+            					<td>57,123</td>
+            					<td>2,382,170</td>
+            				</tr>
+            				<tr>
+            					<td>식품진흥기금</td>
+            					<td>0</td>
+            					<td>1,050,000</td>
+            					<td>0</td>
+            					<td>20,000</td>
+            					<td>124,000</td>
+            				</tr>
+            			</tbody>
+            		</table>
+            	</div>
+            	<div class="m_content">
+            		<h3>무인민원발급기 설치장소</h3>
+            		<div class="m_inner">
+            			<table>
+            				<caption class="hide">무인민원발급기 설치장소</caption>
+            				<colgroup>
+            					<col style="width:40%; background-color:#f7f7f7;">
+            					<col style="width:60%;">
+            				</colgroup>
+            				<tr>
+            					<th scope="col">장 소</th>
+            					<th scope="col">위 치</th>
+            				</tr>
+            				<tr>
+            					<td>영등포구청1</td>
+            					<td>일반민원실 앞</td>
+            				</tr>
+            				<tr>
+            					<td>영등포구청2</td>
+            					<td>여권민원실 앞</td>
+            				</tr>
+            				<tr>
+            					<td>가톨릭대학교</td>
+            					<td>
+            						여의도성모병원<br>
+            						본관2층 로비
+            					</td>
+            				</tr>
+            				<tr>
+            					<td>홈플러스영등포점</td>
+            					<td>지상1층 엘리베이터 옆</td>
+            				</tr>
+            				<tr>
+            					<td>당산역</td>
+            					<td>지상2층 1번출구(2호선)</td>
+            				</tr>
+            				<tr>
+            					<td>여의도역1</td>
+            					<td>지하1층 화장실옆(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>여의도역2</td>
+            					<td>지하1층 화장실옆(우)</td>
+            				</tr>
+            				<tr>
+            					<td>
+									한림대학교<br>
+									강남성심병원
+            					</td>
+            					<td>1층(본관 로비)</td>
+            				</tr>
+            				<tr>
+            					<td>여의동 주민센터1</td>
+            					<td>2층 민원실(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>여의동 주민센터2</td>
+            					<td>2층 민원실(우)</td>
+            				</tr>
+            				<tr>
+            					<td>영등포본동 주민센터</td>
+            					<td>1층 출입구(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>영등포동 주민센터</td>
+            					<td>1층 민원실(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>신길1동 주민센터</td>
+            					<td>1층 출입구(우)</td>
+            				</tr>
+            				<tr>
+            					<td>신길5동 주민센터</td>
+            					<td>1층 출입구(우)</td>
+            				</tr>
+            				<tr>
+            					<td>대림3동 주민센터</td>
+            					<td>1층 출입구(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>영등포동자치회관</td>
+            					<td>1층 현관 출입문(좌)</td>
+            				</tr>
+            				<tr>
+            					<td>도림동자치회관</td>
+            					<td>1층 현관 출입문(좌)</td>
+            				</tr>
+            			</table>
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <div class="f_con01 clearfix">
+            <select id="dept_select" title="동주민센터 바로가기">
+                <option value="">동주민센터</option>
+                <option value="">영등포본동</option>
+                <option value="">영등포동</option>
+                <option value="">여의동</option>
+                <option value="">당산1동</option>
+                <option value="">당산2동</option>
+                <option value="">도림동</option>
+                <option value="">문래동</option>
+                <option value="">양평1동</option>
+                <option value="">양평2동</option>
+                <option value="">신길1동</option>
+                <option value="">신길3동</option>
+                <option value="">신길4동</option>
+                <option value="">신길5동</option>
+                <option value="">신길6동</option>
+                <option value="">신길7동</option>
+                <option value="">대림1동</option>
+                <option value="">대림2동</option>
+                <option value="">대림3동</option>
+            </select>
+            <a href="#">go</a>
+            <select id="fam_select" title="패밀리센터 바로가기">
+                <option value="">패밀리센터</option>
+                <option value="">마이홈포털</option>
+                <option value="">자원봉사센터</option>
+                <option value="">입찰정보서비스</option>
+                <option value="">평생학습정보센터</option>
+                <option value="">대학입학정보센터</option>
+                <option value="">영등포진로직업지원센터</option>
+                <option value="">시설관리공단</option>
+                <option value="">영등포문화재단</option>
+                <option value="">육아종합지원센터</option>
+                <option value="">사회복지협의회</option>
+                <option value="">서남권글로벌센터</option>
+                <option value="">영등포구장학재단</option>
+                <option value="">영등포시니어클럽</option>
+            </select>
+            <a href="#">go</a>
+            <select id="agen_select" title="유관기관 바로가기">
+                <option value="">유관기관</option>
+                <option value="">영등포경찰서</option>
+                <option value="">영등포소방서</option>
+                <option value="">영등포청소년문화의집</option>
+                <option value="">여의도우체국</option>
+                <option value="">남부교육지원청</option>
+                <option value="">서울남부고용노동지청</option>
+                <option value="">영등포세무서</option>
+                <option value="">영등포구상공회</option>
+                <option value="">영등포문화원</option>
+                <option value="">영등포평생학습관</option>
+                <option value="">영등포노인종합복지관</option>
+                <option value="">신길종합사회복지관</option>
+                <option value="">영등포장애인복지관</option>
+                <option value="">구립영등포노인복지센터</option>
+                <option value="">영등포구노인상담센터</option>
+            </select>
+            <a href="#">go</a>
+            <select id="organ_select" title="부서 바로가기">
+                <option value="">부서</option>
+                <option value="">감사담당관</option>
+                <option value="">소통기획과</option>
+                <option value="">사회적경제과</option>
+                <option value="">미래교육과</option>
+                <option value="">총무과</option>
+                <option value="">홍보전산과</option>
+                <option value="">자치행정과</option>
+                <option value="">민원여권과</option>
+                <option value="">문화체육과</option>
+                <option value="">재정관리과</option>
+                <option value="">재무과</option>
+                <option value="">일자리경제과</option>
+                <option value="">징수과</option>
+                <option value="">부과과</option>
+                <option value="">복지정책과</option>
+                <option value="">사회복지과</option>
+                <option value="">보육지원과</option>
+                <option value="">아동청소년복지과</option>
+                <option value="">어르신복지과</option>
+                <option value="">가로경관과</option>
+                <option value="">청소과</option>
+                <option value="">환경과</option>
+                <option value="">푸른도시과</option>
+                <option value="">주택과</option>
+                <option value="">도시계획과</option>
+                <option value="">도시재생과</option>
+                <option value="">건축과</option>
+                <option value="">부동산정보과</option>
+                <option value="">도시안전과</option>
+            </select>
+            <a href="#" class="last">go</a>
+        </div>
+        <ul class="f_con02 clearfix">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">홈페이지의견접수</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">찾아오시는길</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li class="last"><a href="#">홈페이지도우미</a></li>
+        </ul>
+        <div class="ft_bottom">
+            <div class="ft_inner">
+                <p>(07260)서울 영등포구 당산로 123 (당산동3가)</p>
+                <p>대표전화 : 02-2670-3114(120다산콜센터로 연결), 02-2670-3000 (야간, 공휴일 / 당직실) ㅣ FAX : 02-2670-3002</p>
+                <div class="ft_wrap">
+                    <div class="ft_btn">
+                        <a href="#">로그인</a>
+                        <a href="#" class="last">맨위로</a>
+                    </div>
+                    <p>Copyright (c) YEONGDEUNGPO-GU, ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
