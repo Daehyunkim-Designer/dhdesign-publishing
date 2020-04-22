@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영등포구청</title>
+	<link rel="stylesheet" href="css/complain07.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <div class="skipNav">
+        <a href="index.html">본문 바로가기</a>
+        <a href="index.html">주메뉴 바로가기</a>
+    </div>
+    <div id="header">
+        <div class="top_main clearfix">
+            <div class="wrapper">
+                <ul class="main_lf clearfix">
+                    <li class="first"><a href="#">구의회</a></li>
+                    <li><a href="#">보건소</a></li>
+                    <li><a href="#">문화관광</a></li>
+                    <li><a href="#">평생학습</a></li>
+                    <li class="big"><a href="#">정보화교육</a></li>
+                </ul>
+                <ul class="main_rt clearfix">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_logo clearfix">
+            <div class="wrapper">
+               <!-- 모바일 메뉴-->
+                <div class="m_btn">
+                </div>
+                <div onclick="history.back();" class="page_cover"></div>
+                <div id="m_menu">
+                    <div onclick="history.forward();" class="close"></div>
+                    <ul class="m_gnb">
+                        <li>
+                        	<a href="#" onclick="return false">종합민원</a>
+                        	<ul class="m_subgnb">
+                        		<li>
+                        			<a href="complain01.html">무인민원발급창구</a>
+                        		</li>
+								<li>
+									<a href="#">화요아침저녁민원처리</a>
+								</li>
+								<li>
+									<a href="#">여권발급안내</a>
+								</li>
+								<li>
+									<a href="#">민원상담</a>
+								</li>
+								<li>
+									<a href="#">월별지방세안내</a>
+								</li>
+								<li>
+									<a href="#">지방소득세 개편안내</a>
+								</li>
+								<li>
+									<a href="#">서울시마을세무사 무료상담</a>
+								</li>
+								<li>
+									<a href="#">에코마일리지</a>
+								</li>
+								<li>
+									<a href="#">정화조청소</a>
+								</li>
+								<li>
+									<a href="#">대형폐기물신청</a>
+								</li>
+								<li>
+									<a href="#">생활쓰레기배출요령</a>
+								</li>
+								<li>
+                      				<a href="#">음식물쓰레기배출요령</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">지적민원안내</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">토지특성자료조회</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">부동상중개보수료</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">임대차계약정보안내</a>
+                       			</li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">행정참여</a>
+                        	<ul class="m_subgnb">
+                        		<li><a href="#">사전정보공표</a></li>
+								<li><a href="#">정책실명제</a></li>
+								<li><a href="#">구민관심사항</a></li>
+								<li><a href="#">주요회의</a></li>
+								<li><a href="#">대학생 아르바이트접수</a></li>
+								<li><a href="#">영어캠프 접수</a></li>
+								<li><a href="#">규제개혁안내</a></li>
+								<li><a href="#">규제정보</a></li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">교육생활</a>
+                        	<ul class="m_subgnb">
+								<li><a href="#">정보화교육</a></li>
+								<li><a href="#">관내유치원</a></li>
+								<li><a href="#">관내초등학교</a></li>
+								<li><a href="#">관내중학교</a></li>
+								<li><a href="#">관내고등학교</a></li>
+								<li><a href="#">취업정보안내</a></li>
+								<li><a href="#">청년인턴제</a></li>
+								<li><a href="#">오늘의 상품</a></li>
+								<li><a href="#">전통시장 안내</a></li>
+								<li><a href="#">버스정보</a></li>
+								<li><a href="#">지하철정보</a></li>
+								<li><a href="#">재난안전</a></li>
+							</ul>
+                        </li>
+                        <li><a href="#">보건복지</a></li>
+                        <li><a href="#">영등포소개</a></li>
+                        <li><a href="#">문화관광</a></li>
+                    </ul>
+                </div>
+                
+                <h1 class="logo">
+                    <a href="index.html" title="메인화면으로 이동">
+                        <img src="images/logo.jpg" alt="탁트인영등포">
+                    </a>
+                </h1>
+                <h1 class="m_logo">
+                    <a href="#" title="메인화면으로 이동" >
+                        <img src="images/mlogo.png" alt="영등포구">
+                    </a>
+                </h1>
+                
+                <div class="search">
+                    <div class="s_inner">
+                        <label class="blind" for="query">검색내용입력</label>
+                        <input type="text" class="search_bar" id="query" title="검색할 키워드 입력후 엔터키 : 검색결과 새창으로 이동" placeholder="검색어를 입력하세요">
+                    </div>
+                </div>
+                <ul class="sns clearfix">
+                    <li><a href="#"><img src="images/sns01.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="images/sns02.png" alt="pinterest"></a></li>
+                    <li><a href="#"><img src="images/sns03.png" alt="blog"></a></li>
+                    <li><a href="#"><img src="images/sns04.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="images/sns05.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="images/sns06.png" alt="potcast"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_gnb">
+            <div class="wrapper">
+                <ul class="clearfix">
+                    <li ><a href="complain01.html">민원센터</a></li>
+                    <li><a href="admin.html">행정정보</a></li>
+                    <li><a href="resident.html">구민참여</a></li>
+                    <li><a href="#">복지/생활</a></li>
+                    <li><a href="#">도시/경제</a></li>
+                    <li class="last"><a href="#">영등포소개</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+   <!-- 컨텐츠영역 -->
+    <div id="container">
+        <div class="wrapper clearfix">
+            <div class="left_wrap">
+               <h2>
+               		<img src="images/menu_hd.png" alt="민원센터" />
+               </h2>
+               <ul class="left_menu">
+               		<li>
+                        <a href="#" class="main" onclick="return false;" title="종합민원안내">종합민원안내</a>
+                        <ul class="sub_cont">
+                            <li><a href="complain.html" title="무인민원발급창구">무인민원발급창구</a></li>
+                            <li><a href="complain02.html" title="민원후견인제">민원후견인제</a></li>
+                            <li><a href="complain03.html" title="어디서나민원">어디서나민원</a></li>
+                            <li><a href="complain04.html" title="편리한 민원제도">편리한 민원제도</a></li>
+                            <li><a href="complain05.html" title="체류지변경및거소이전신고">체류지변경및거소이전신고</a></li>
+                            <li><a href="complain06.html" title="민원24(인터넷민원서비스)">민원24(인터넷민원서비스)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main" onclick="return false;">분야별 민원절차안내</a>
+                        <ul class="sub_cont">
+                            <li><a href="complain07.html" title="여권">여권</a></li>
+                            <li><a href="complain08.html" title="가족관계등록">가족관계등록</a></li>
+                            <li><a href="complain09.html" title="세무">세무</a></li>
+                            <li><a href="complain10.html" title="부동산/지적">부동산/지적</a></li>
+                            <li><a href="complain11.html" title="청소">청소</a></li>
+                        </ul>
+                    </li>
+               </ul>
+            </div>
+            <div class="right_wrap">
+            	<h2>여권</h2>
+            	<div class="right_cont">
+            		<ul class="content_wrap">
+            			<li>
+            				<p class="box_p">
+            					2008.8.25(월) 전자여권제 시행과 동시에 여권의 대리신청이 불가하며 주소지에 관계없이 서울시 모든 구청 및 전국 모든 여권사무대행기관에서 여권접수 가능합니다.
+            				</p>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					외교부 여권안내 
+            					<a href="http://www.passport.go.kr/new/">홈페이지 바로가기</a>
+            				</h3>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					업무시간
+            				</h3>
+            				<p>
+            					- 월~금 09:00~18:00(화요일은 08:00~20:00)
+            				</p>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					여권개요
+            				</h3>
+            				<h4>*여권발급 대상</h4>
+            				<p>- 대한민국 국적을 보유하고 여권법령에 의한 여권발급 거부 또는 제한 대상이 아닌 자</p>
+            				<h4>*복수여권</h4>
+            				<p>- 유효기간 중 횟수에 제한 없이 여행을 할 수 있는 여권으로 10년 이내의 유효기간 부여. 단, 18세 미만자 대하여는 유효기간 5년 이내의 여권 발급</p>
+            				<h4>*단수여권</h4>
+            				<p>- 1회에 한하여 여행을 할 수 있는 여권으로 1년의 유효기간 부여</p>
+            				<p>- 여권명의인이 귀국(여행 출발지 국가로의 재입국)하였을 때 여권 유효기간 존속여부에 불문하고 효력이 상실됨</p>
+            				<h4>*관용여권</h4>
+            				<p>- 여행목적과 신분에 따라 외교통상부장관이 관용여권의 발급이 필요하다고 인정하는 자에게 발급하는 여권 (유효기간 5년)</p>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					여권발급 신청방법[본인직접 신청제]
+            				</h3>
+            				<p style="color:#922208;">※ 2008. 8.25일부터 여권은 본인이 신청 접수하여야 합니다.</p>
+            				<h4>적용범위</h4>
+            				<p>- 여권 신청 전반(신규, 재발급 등)</p>
+            				<h4>본인직접 신청의 예외</h4>
+            				<p>- 의학적 사유 : 본인이 직접 신청할 수 없을 정도의 신체적, 정신적 질병, 장애나 사고 등이 있는 경우(증빙서류 제출)</p>
+            				<p>- 연 령 : 18세 미만의 미성년자</p>
+            				<h4>대리인의 범위(미성년자)</h4>
+            				<p>- 친권자, 후견인등 법정대리인</p>
+            				<p>- 배우자(미성년자의 부,모)</p>
+            				<p>- 본인이나 배우자의 2촌 이내의 친족으로서 18세 이상인 사람</p>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					여권발급 수수료 ※신용카드납부도 가능(매주화요일 야간접수시에도 가능)
+            				</h3>
+            				<table border="1">
+            					<caption class="hide">여권발급수수료</caption>
+            					<colgroup>
+            						<col style="width:15%;">
+            						<col style="width:15%;">
+            						<col style="width:15%;">
+            						<col style="width:15%;">
+            						<col style="width:40%;">
+            					</colgroup>
+            					<thead>
+            						<tr>
+            							<th scope="col" rowspan="2">여권종류</th>
+            							<th scope="col" rowspan="2">유효기간</th>
+            							<th scope="col" colspan="2">수수료</th>
+            							<th scope="col" rowspan="2">대상</th>
+            						</tr>
+            						<tr>
+            							<th scope="col">여권(48면)</th>
+            							<th scope="col">알뜰여권(24면)</th>
+            						</tr>
+            					</thead>
+            					<tbody>
+            						<tr>
+            							<th rowspan="5">복수여권</th>
+            							<td>10년</td>
+            							<td>53,000원</td>
+            							<td>50,000원</td>
+            							<td>- 만18세이상 희망(단,병역미필자 제외)</td>
+            						</tr>
+            						<tr>
+            							<td rowspan="2">5년</td>
+            							<td>45,000원</td>
+            							<td>42,000원	</td>
+            							<td>- 만8세이상 ~ 만18세미만</td>
+            						</tr>
+            						<tr>
+            							<td>33,000원</td>
+            							<td>30,000원</td>
+            							<td>- 만8세미만</td>
+            						</tr>
+            						<tr>
+            							<td>남은 유효기간</td>
+            							<td colspan="2">25,000원</td>
+            							<td>- 수록정보변경(분실, 개명, 주민번호 정정, 사진 변경 등)</td>
+            						</tr>
+            						<tr>
+            							<td>5년미만(24면)</td>
+            							<td colspan="2">15,000원</td>
+            							<td>	- 만20~24세미만의 병역미필자 <br>
+- 만24세 이상의 병역미필자로서 6개월이상 국외여행 허가대상자</td>
+            						</tr>
+            						<tr>
+            							<th scope="row">단수여권</th>
+            							<td>1년</td>
+            							<td colspan="2">20,000원</td>
+            							<td>- 1회 여행만 가능</td>
+            						</tr>
+            						<tr>
+            							<th scope="row">기재사항 변경</th>
+            							<td></td>
+            							<td colspan="2">5,000원</td>
+            							<td>- 사증란추가(1회)</td>
+            						</tr>
+            					</tbody>
+            				</table>
+            				<p style="color:red;">※알뜰여권 : 사증(속지)가 48면에서 24면, 반으로 줄어든 여권</p>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					여권사진규격안내 
+            					<a href="http://www.passport.go.kr/new/issue/photo.php">( ☞ 여권사진보기 )</a>
+            				</h3>
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					여권발급 신청서 관련 유의사항 
+            				</h3>
+            				<p>- 다른 사람에 의한 무단 서명이나 거짓의 사실 기재 시「여권법」관련규정에 따라 처벌을 받게 되며, 여권 명의인도 불이익을 받을 수 있습니다.</p>
+            				<p>- 신청서는 기계로 판독되므로 접거나 찢는 등 훼손되지 않도록 주의바랍니다.</p>
+            				<p>- 사진이 흐릿하거나 임의로 조작된 것인 경우에는 위조여권이나 타인명의 여권으로 오인되어 출입국시 불이익을 받을 수 있습니다.</p>
+            				<p>- 새로운 여권을 재발급 받으려면 기존에 소지하고 있는 여권을 반납하여야 합니다.</p>
+            				<p>- 신청서의 기재사항에 오류가 있을 경우 신청인에게 불이익이 돌아갈 수 있으므로 정확하게 기재하기 바랍니다.</p>
+            				<p>- 여권발급은 접수일로부터 통상 1주일(토,일, 공휴일 제외)정도의 기간이 소요됩니다. 발급후 6개월 이내 찾아가지 않은 여권은 자동적으로 폐기되며 발급수수료는 반환되지 않습니다.</p>
+            				<p>- 사증(VISA)이 필요한 국가를 여행하기 위해서는 여행을 가기 전에 미리 사증을 받아야 하며 대부분의 국가는 여권 유효기간이 6개월 이상 남은 경우에만 사증을 발급하고 있습니다.</p>
+            				<h4>- 여권상 영문성명 확인 철저</h4>
+            				<p>- 영문성명은 대문자로 기재하여야 하며, 국제규정(ICAO Doc9303)에 따라 한글성명을 라틴문자(영어 알파벳)로 음역 표기하여야 합니다.</p>
+            				<p>- 영문이름은 붙여 쓰는 것을 원칙으로 하되 음절사이에 붙임표(-)를 쓰는 것도 가능합니다. 다만,기존 여권에 이름을 띄어 쓴 경우에는 그대로 띄어쓸 수 있습니다.</p>
+            				<p>- 여권의 영문 성(姓)은 특별한 사유가 없는 경우 여권을 이미 발급 받은 가족 구성원의 영문 성(姓)과 될 수 있으면 일치시키기 바랍니다.</p>
+            				<p>- 여권상 영문성명 변경은 여권법 시행령 제19조에 의거 엄격하게 제한되므로 본인이 정확하게 기재하기 바랍니다.</p>
+						</li>
+            		</ul>
+            	</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- 푸터 -->
+    <div id="footer">
+        <div class="f_con01 clearfix">
+            <select id="dept_select" title="동주민센터 바로가기">
+                <option value="">동주민센터</option>
+                <option value="">영등포본동</option>
+                <option value="">영등포동</option>
+                <option value="">여의동</option>
+                <option value="">당산1동</option>
+                <option value="">당산2동</option>
+                <option value="">도림동</option>
+                <option value="">문래동</option>
+                <option value="">양평1동</option>
+                <option value="">양평2동</option>
+                <option value="">신길1동</option>
+                <option value="">신길3동</option>
+                <option value="">신길4동</option>
+                <option value="">신길5동</option>
+                <option value="">신길6동</option>
+                <option value="">신길7동</option>
+                <option value="">대림1동</option>
+                <option value="">대림2동</option>
+                <option value="">대림3동</option>
+            </select>
+            <a href="#">go</a>
+            <select id="fam_select" title="패밀리센터 바로가기">
+                <option value="">패밀리센터</option>
+                <option value="">마이홈포털</option>
+                <option value="">자원봉사센터</option>
+                <option value="">입찰정보서비스</option>
+                <option value="">평생학습정보센터</option>
+                <option value="">대학입학정보센터</option>
+                <option value="">영등포진로직업지원센터</option>
+                <option value="">시설관리공단</option>
+                <option value="">영등포문화재단</option>
+                <option value="">육아종합지원센터</option>
+                <option value="">사회복지협의회</option>
+                <option value="">서남권글로벌센터</option>
+                <option value="">영등포구장학재단</option>
+                <option value="">영등포시니어클럽</option>
+            </select>
+            <a href="#">go</a>
+            <select id="agen_select" title="유관기관 바로가기">
+                <option value="">유관기관</option>
+                <option value="">영등포경찰서</option>
+                <option value="">영등포소방서</option>
+                <option value="">영등포청소년문화의집</option>
+                <option value="">여의도우체국</option>
+                <option value="">남부교육지원청</option>
+                <option value="">서울남부고용노동지청</option>
+                <option value="">영등포세무서</option>
+                <option value="">영등포구상공회</option>
+                <option value="">영등포문화원</option>
+                <option value="">영등포평생학습관</option>
+                <option value="">영등포노인종합복지관</option>
+                <option value="">신길종합사회복지관</option>
+                <option value="">영등포장애인복지관</option>
+                <option value="">구립영등포노인복지센터</option>
+                <option value="">영등포구노인상담센터</option>
+            </select>
+            <a href="#">go</a>
+            <select id="organ_select" title="부서 바로가기">
+                <option value="">부서</option>
+                <option value="">감사담당관</option>
+                <option value="">소통기획과</option>
+                <option value="">사회적경제과</option>
+                <option value="">미래교육과</option>
+                <option value="">총무과</option>
+                <option value="">홍보전산과</option>
+                <option value="">자치행정과</option>
+                <option value="">민원여권과</option>
+                <option value="">문화체육과</option>
+                <option value="">재정관리과</option>
+                <option value="">재무과</option>
+                <option value="">일자리경제과</option>
+                <option value="">징수과</option>
+                <option value="">부과과</option>
+                <option value="">복지정책과</option>
+                <option value="">사회복지과</option>
+                <option value="">보육지원과</option>
+                <option value="">아동청소년복지과</option>
+                <option value="">어르신복지과</option>
+                <option value="">가로경관과</option>
+                <option value="">청소과</option>
+                <option value="">환경과</option>
+                <option value="">푸른도시과</option>
+                <option value="">주택과</option>
+                <option value="">도시계획과</option>
+                <option value="">도시재생과</option>
+                <option value="">건축과</option>
+                <option value="">부동산정보과</option>
+                <option value="">도시안전과</option>
+            </select>
+            <a href="#" class="last">go</a>
+        </div>
+        <ul class="f_con02 clearfix">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">홈페이지의견접수</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">찾아오시는길</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li class="last"><a href="#">홈페이지도우미</a></li>
+        </ul>
+        <div class="ft_bottom">
+            <div class="ft_inner">
+                <p>(07260)서울 영등포구 당산로 123 (당산동3가)</p>
+                <p>대표전화 : 02-2670-3114(120다산콜센터로 연결), 02-2670-3000 (야간, 공휴일 / 당직실) ㅣ FAX : 02-2670-3002</p>
+                <div class="ft_wrap">
+                    <div class="ft_btn">
+                        <a href="#">로그인</a>
+                        <a href="#">PC버젼</a>
+                        <a href="#" class="last">맨위로</a>
+                    </div>
+                    <p>Copyright (c) YEONGDEUNGPO-GU, ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
