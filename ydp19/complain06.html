@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영등포구청</title>
+	<link rel="stylesheet" href="css/complain06.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <div class="skipNav">
+        <a href="#">본문 바로가기</a>
+        <a href="#">주메뉴 바로가기</a>
+    </div>
+    <div id="header">
+        <div class="top_main clearfix">
+            <div class="wrapper">
+                <ul class="main_rt clearfix">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="signup.html">회원가입</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_logo clearfix">
+            <div class="wrapper">
+               <!-- 모바일 메뉴-->
+                <div class="m_btn">
+                </div>
+                <div onclick="history.back();" class="page_cover"></div>
+                <div id="m_menu">
+                    <div onclick="history.forward();" class="close"></div>
+                    <ul class="m_gnb">
+                        <li>
+                        	<a href="#" onclick="return false">종합민원</a>
+                        	<ul class="m_subgnb">
+                        		<li>
+                        			<a href="complain.html">무인민원발급창구</a>
+                        		</li>
+								<li>
+									<a href="#">화요아침저녁민원처리</a>
+								</li>
+								<li>
+									<a href="#">여권발급안내</a>
+								</li>
+								<li>
+									<a href="#">민원상담</a>
+								</li>
+								<li>
+									<a href="#">월별지방세안내</a>
+								</li>
+								<li>
+									<a href="#">지방소득세 개편안내</a>
+								</li>
+								<li>
+									<a href="#">서울시마을세무사 무료상담</a>
+								</li>
+								<li>
+									<a href="#">에코마일리지</a>
+								</li>
+								<li>
+									<a href="#">정화조청소</a>
+								</li>
+								<li>
+									<a href="#">대형폐기물신청</a>
+								</li>
+								<li>
+									<a href="#">생활쓰레기배출요령</a>
+								</li>
+								<li>
+                      				<a href="#">음식물쓰레기배출요령</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">지적민원안내</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">토지특성자료조회</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">부동상중개보수료</a>
+                       			</li>
+                       			<li>
+                      				<a href="#">임대차계약정보안내</a>
+                       			</li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">행정참여</a>
+                        	<ul class="m_subgnb">
+                        		<li><a href="#">사전정보공표</a></li>
+								<li><a href="#">정책실명제</a></li>
+								<li><a href="#">구민관심사항</a></li>
+								<li><a href="#">주요회의</a></li>
+								<li><a href="#">대학생 아르바이트접수</a></li>
+								<li><a href="#">영어캠프 접수</a></li>
+								<li><a href="#">규제개혁안내</a></li>
+								<li><a href="#">규제정보</a></li>
+                        	</ul>
+                        </li>
+                        <li>
+                        	<a href="#">교육생활</a>
+                        	<ul class="m_subgnb">
+								<li><a href="#">정보화교육</a></li>
+								<li><a href="#">관내유치원</a></li>
+								<li><a href="#">관내초등학교</a></li>
+								<li><a href="#">관내중학교</a></li>
+								<li><a href="#">관내고등학교</a></li>
+								<li><a href="#">취업정보안내</a></li>
+								<li><a href="#">청년인턴제</a></li>
+								<li><a href="#">오늘의 상품</a></li>
+								<li><a href="#">전통시장 안내</a></li>
+								<li><a href="#">버스정보</a></li>
+								<li><a href="#">지하철정보</a></li>
+								<li><a href="#">재난안전</a></li>
+							</ul>
+                        </li>
+                        <li><a href="#">보건복지</a></li>
+                        <li><a href="#">영등포소개</a></li>
+                        <li><a href="#">문화관광</a></li>
+                    </ul>
+                </div>
+                
+                <h1 class="logo">
+                    <a href="#" title="메인화면으로 이동">
+                        <img src="images/logo.jpg" alt="탁트인영등포">
+                    </a>
+                </h1>
+                <h1 class="m_logo">
+                    <a href="#" title="메인화면으로 이동" >
+                        <img src="images/mlogo.png" alt="영등포구">
+                    </a>
+                </h1>
+                
+                <div class="search">
+                    <div class="s_inner">
+                        <label class="blind" for="query">검색내용입력</label>
+                        <input type="text" class="search_bar" id="query" title="검색할 키워드 입력후 엔터키 : 검색결과 새창으로 이동" placeholder="검색어를 입력하세요">
+                    </div>
+                </div>
+                <ul class="sns clearfix">
+                    <li><a href="https://www.facebook.com/HappyYDP/"><img src="images/sns01.png" alt="facebook"></a></li>
+                    <li><a href="https://www.pinterest.co.kr/ydpoffice/"><img src="images/sns02.png" alt="pinterest"></a></li>
+                    <li><a href="https://blog.naver.com/iloveydp"><img src="images/sns03.png" alt="blog"></a></li>
+                    <li><a href="https://www.instagram.com/iloveydp/"><img src="images/sns04.png" alt="instagram"></a></li>
+                    <li><a href="https://twitter.com/HappyYDP"><img src="images/sns05.png" alt="twitter"></a></li>
+                    <li><a href="http://www.podbbang.com/ch/1771729"><img src="images/sns06.png" alt="potcast"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top_gnb">
+            <div class="wrapper">
+                <ul class="clearfix">
+                    <li ><a href="complain.html">민원센터</a></li>
+                    <li><a href="admin.html">행정정보</a></li>
+                    <li><a href="resident.html">구민참여</a></li>
+                    <li><a href="news.html">영등포소식</a></li>
+                    <li><a href="introduce.html">우리구소개</a></li>
+                    <li class="last"><a href="department.html">분야별정보</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+   <!-- 컨텐츠영역 -->
+    <div id="container">
+        <div class="wrapper clearfix">
+            <div class="left_wrap">
+               <h2>
+               		<img src="images/menu_hd.png" alt="민원센터" />
+               </h2>
+               <ul class="left_menu">
+               		<li>
+                        <a href="#" class="main" onclick="return false;">종합민원안내</a>
+                        <ul class="sub_cont">
+                            <li><a href="complain.html">무인민원발급창구</a></li>
+                            <li><a href="complain02.html">민원후견인제</a></li>
+                            <li><a href="complain03.html">어디서나민원</a></li>
+                            <li><a href="complain04.html">편리한 민원제도</a></li>
+                            <li><a href="complain05.html">체류지변경및거소이전신고</a></li>
+                            <li><a href="#">민원24(인터넷민원서비스)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main" onclick="return false;">분야별 민원절차안내</a>
+                        <ul class="sub_cont">
+                            <li><a href="complain07.html">여권</a></li>
+                            <li><a href="complain08.html">가족관계등록</a></li>
+                            <li><a href="complain09.html">세무</a></li>
+                            <li><a href="complain10.html">부동산/지적</a></li>
+                            <li><a href="complain11.html">청소</a></li>
+                        </ul>
+                    </li>
+               </ul>
+            </div>
+            <div class="right_wrap">
+            	<h2>민원24(인터넷민원서비스)</h2>
+            	<div class="right_cont">
+            		<ul class="content_wrap">
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					『정부24』 서비스 개요
+            				</h3>
+            				<div class="text_box">
+            					<p>『정부24』란 대한민국의 모든 수혜서비스, 민원업무, 정책·정보 등 24시간 365일 온라인에서 한번의 방문으로 안내받고 열람·신청·발급할 수 있는 통합된 정부서비스입니다.</p>
+								<span>주소 :</span>
+								<a href="https://www.gov.kr"> https://www.gov.kr</a> 
+            				</div>            				
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					자주 찾는 민원서비스
+            				</h3>
+            				<div class="text_box">
+            					<p>- 주민등록표 등본(초본) 교부</p>
+            					<p>- 지방세 세목별 과세(납세)증명</p>
+            					<p>- 토지(임야)대장 열람ㆍ등본 발급 신청</p>
+            					<p>- 지방세 납세증명</p>
+            					<p>- 건축물대장 등ㆍ초본 발급(열람)신청</p>
+            					<p>- 전입신고</p>
+            					<p>- 토지이용계획확인 신청</p>
+            					<p>- 출입국사실증명</p>
+            					<p>- 지적도(임야도) 열람ㆍ등본 교부신청</p>
+            					<p>- 병적증명서 발급</p>
+            				</div>            				
+            			</li>
+            			<li>
+            				<h3>
+            					<span>
+            						<img src="images/arrow.png" alt="화살표" />
+            					</span>
+            					민원서류 발급 방법
+            				</h3>
+            				<div class="text_box">
+            					<p>- 인터넷에서 검색창에서 [정부24]로 접속</p>
+            					<p>- 정부24 회원가입 (※ 비회원도 민원신청이 가능)</p>
+            					<p>- 아이디로 로그인후 화면 왼쪽 공인인증서 등록</p>
+            					<p>- 신청민원 검색</p>
+            					<p>- 민원신청내용 입력</p>
+            					<p>- 본인확인(공인인증서)</p>
+            					<p style="margin-left:10px;">※ 본인확인이 필요한 주민등록 등ㆍ초본 등 민원서류는 공인인증서가 반드시 필요합니다.</p>
+            					<p>- 수수료 납부(수수료 필요 민원의 경우)</p>
+            					<p>- 민원신청내용 확인</p>
+            					<p>- 문서출력(프린터를 이용하여 직접 출력)</p>
+            					<p>- 문의처 : 1588-2188</p>
+            				</div>            				
+            			</li>
+            		</ul>
+            	</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- 푸터 -->
+    <div id="footer">
+        <div class="f_con01 clearfix">
+            <select id="dept_select" title="동주민센터 바로가기">
+                <option value="">동주민센터</option>
+                <option value="">영등포본동</option>
+                <option value="">영등포동</option>
+                <option value="">여의동</option>
+                <option value="">당산1동</option>
+                <option value="">당산2동</option>
+                <option value="">도림동</option>
+                <option value="">문래동</option>
+                <option value="">양평1동</option>
+                <option value="">양평2동</option>
+                <option value="">신길1동</option>
+                <option value="">신길3동</option>
+                <option value="">신길4동</option>
+                <option value="">신길5동</option>
+                <option value="">신길6동</option>
+                <option value="">신길7동</option>
+                <option value="">대림1동</option>
+                <option value="">대림2동</option>
+                <option value="">대림3동</option>
+            </select>
+            <a href="#">go</a>
+            <select id="fam_select" title="패밀리센터 바로가기">
+                <option value="">패밀리센터</option>
+                <option value="">마이홈포털</option>
+                <option value="">자원봉사센터</option>
+                <option value="">입찰정보서비스</option>
+                <option value="">평생학습정보센터</option>
+                <option value="">대학입학정보센터</option>
+                <option value="">영등포진로직업지원센터</option>
+                <option value="">시설관리공단</option>
+                <option value="">영등포문화재단</option>
+                <option value="">육아종합지원센터</option>
+                <option value="">사회복지협의회</option>
+                <option value="">서남권글로벌센터</option>
+                <option value="">영등포구장학재단</option>
+                <option value="">영등포시니어클럽</option>
+            </select>
+            <a href="#">go</a>
+            <select id="agen_select" title="유관기관 바로가기">
+                <option value="">유관기관</option>
+                <option value="">영등포경찰서</option>
+                <option value="">영등포소방서</option>
+                <option value="">영등포청소년문화의집</option>
+                <option value="">여의도우체국</option>
+                <option value="">남부교육지원청</option>
+                <option value="">서울남부고용노동지청</option>
+                <option value="">영등포세무서</option>
+                <option value="">영등포구상공회</option>
+                <option value="">영등포문화원</option>
+                <option value="">영등포평생학습관</option>
+                <option value="">영등포노인종합복지관</option>
+                <option value="">신길종합사회복지관</option>
+                <option value="">영등포장애인복지관</option>
+                <option value="">구립영등포노인복지센터</option>
+                <option value="">영등포구노인상담센터</option>
+            </select>
+            <a href="#">go</a>
+            <select id="organ_select" title="부서 바로가기">
+                <option value="">부서</option>
+                <option value="">감사담당관</option>
+                <option value="">소통기획과</option>
+                <option value="">사회적경제과</option>
+                <option value="">미래교육과</option>
+                <option value="">총무과</option>
+                <option value="">홍보전산과</option>
+                <option value="">자치행정과</option>
+                <option value="">민원여권과</option>
+                <option value="">문화체육과</option>
+                <option value="">재정관리과</option>
+                <option value="">재무과</option>
+                <option value="">일자리경제과</option>
+                <option value="">징수과</option>
+                <option value="">부과과</option>
+                <option value="">복지정책과</option>
+                <option value="">사회복지과</option>
+                <option value="">보육지원과</option>
+                <option value="">아동청소년복지과</option>
+                <option value="">어르신복지과</option>
+                <option value="">가로경관과</option>
+                <option value="">청소과</option>
+                <option value="">환경과</option>
+                <option value="">푸른도시과</option>
+                <option value="">주택과</option>
+                <option value="">도시계획과</option>
+                <option value="">도시재생과</option>
+                <option value="">건축과</option>
+                <option value="">부동산정보과</option>
+                <option value="">도시안전과</option>
+            </select>
+            <a href="#" class="last">go</a>
+        </div>
+        <ul class="f_con02 clearfix">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">홈페이지의견접수</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">저작권정책</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li><a href="#">찾아오시는길</a></li>
+            <li><img src="images/footer_icon.png" alt="bar" /></li>
+            <li class="last"><a href="#">홈페이지도우미</a></li>
+        </ul>
+        <div class="ft_bottom">
+            <div class="ft_inner">
+                <p>(07260)서울 영등포구 당산로 123 (당산동3가)</p>
+                <p>대표전화 : 02-2670-3114(120다산콜센터로 연결), 02-2670-3000 (야간, 공휴일 / 당직실) ㅣ FAX : 02-2670-3002</p>
+                <div class="ft_wrap">
+                    <div class="ft_btn">
+                        <a href="#">로그인</a>
+                        <a href="#">PC버젼</a>
+                        <a href="#" class="last">맨위로</a>
+                    </div>
+                    <p>Copyright (c) YEONGDEUNGPO-GU, ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
